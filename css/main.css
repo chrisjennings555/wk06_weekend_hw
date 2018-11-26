@@ -1,12 +1,45 @@
 body {
-  background-color: lightblue;
-};
+  background-color: royalblue;
+  background-size: 50%;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 800px;
+}
+
+.title-banner {
+  font-family: 'Patua One', cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5em;
+  background-color: darkblue;
+
+}
 
 .dolphin-list-item {
+  color: white;
+  list-style-type: none;
   margin: 0.5rem 0.5rem;
   padding: 0.5rem 0.8rem;
-  border: 1px solid #20437c;
+  border: 3px solid gold;
   border-radius: 5%;
-  background: blue;
+  background: navy;
+  text-align: center;
+  width: 100px;
+  height: 150px;
+  margin: auto;
+}
+
+.form-item {
   color: white;
+  font-size: 1.2em;
+}
+
+#dolphin-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  height: 400px;
 }
